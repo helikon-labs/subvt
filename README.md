@@ -12,4 +12,5 @@ You may view the Kusama Treasury [proposal](https://kusama.polkassembly.io/post/
 
 ### Updates
 
+- _23rd of August, 2021:_ The design brief document is available in the repo, [here](https://github.com/helikon-labs/subvt/blob/main/documents/design/01-subvt_design_brief_2021_08_23.pdf).
 - _29th of July, 2021:_ The initial list of features is available [here](https://github.com/helikon-labs/subvt/issues?q=is%3Aopen+label%3Afeature+sort%3Acreated-asc) and open to feedback from the Substrate validator community.
