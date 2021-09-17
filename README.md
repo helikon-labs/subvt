@@ -1,4 +1,6 @@
-## SubVT
+<p align="center">
+	<img width="400" src="https://raw.githubusercontent.com/helikon-labs/subvt/main/readme-files/subvt_logo.png">
+</p>
 
 SubVT (Substrate Validator Toolkit - former Subvalt) is a native mobile application for iOS and Android phones, tablets and wearables that provides node operators with tools that aid them in running their validators on any Substrate-based blockchain network. The app aims to provide through a well-designed UX and UI:
 
