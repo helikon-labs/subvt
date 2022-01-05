@@ -31,9 +31,9 @@ You may view the Kusama Treasury [proposal](https://kusama.polkassembly.io/post/
 6. Service specifications for REST services.
 	1. Report REST service OpenAPI [specification](https://helikon-labs.stoplight.io/docs/subvt/YXBpOjM0MDAzMjEz-sub-vt-report-service).
 	2. Application REST service OpenAPI [specification](#).
-	3. Live network status WS RPC service [specification](#).
-	4. Validator list WS RPC service [specification](#).
-	5. Validator details WS RPC service [specification](#).
+	3. Live network status WS RPC service [specification](./spec/01-live_network_status_ws_rpc_service_spec.md).
+	4. Validator list WS RPC service [specification](./spec/02-validator_list_ws_rpc_service_spec.md).
+	5. Validator details WS RPC service [specification](./spec/03-validator_details_ws_rpc_service_spec.md).
 
 ### Milestone 3️⃣
 1. Milestone [report](./documents/project/02-milestone_03_report.md).
