@@ -1,7 +1,7 @@
 # SubVT System Architecture
 
 <p align="center">
-<a href="https://raw.githubusercontent.com/helikon-labs/subvt/main/documents/software/01-subvt_system_architecture_large.jpg" target="_blank"><img src="./01-subvt_system_architecture_small.jpg"/></a><br/>
+<a href="https://raw.githubusercontent.com/helikon-labs/subvt/main/documents/software/image/01-subvt_system_architecture_large.jpg" target="_blank"><img src="./image/01-subvt_system_architecture_small.jpg"/></a><br/>
 <i><b>Figure 1</b> Subvt system (click for the large version)</i>
 </p>
 

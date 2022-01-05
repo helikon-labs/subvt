@@ -28,7 +28,9 @@ You may view the Kusama Treasury [proposal](https://kusama.polkassembly.io/post/
 4. Design [assets](./assets/design).
 4. UX map on [Figma](https://www.figma.com/file/XzSssIXskyo8aMTc1myClC/?node-id=178:350).
 5. UX design on [Figma](https://www.figma.com/file/XzSssIXskyo8aMTc1myClC/?node-id=0:1).
-6. OpenAPI [specifications](#) for report and application services.
+6. OpenAPI specifications for REST services.
+	1. Report service [specification](https://helikon-labs.stoplight.io/docs/subvt/YXBpOjM0MDAzMjEz-sub-vt-report-service).
+	2. Application service [specification](#).
 
 ### Milestone 3️⃣
 1. Milestone [report](./documents/project/02-milestone_03_report.md).
