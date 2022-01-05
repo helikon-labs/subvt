@@ -6,7 +6,7 @@ First milestone of SubVT consisted of the following items and output:
 |---|---|---|
 |Requirements gathering and documentation.|User stories, feature details and implementation details as issues in the top-level repository.|[link](https://github.com/helikon-labs/subvt/issues?q=is%3Aopen+is%3Aissue+label%3Afeature)|
 | |Data definition document for the design team.|[link](https://docs.google.com/document/d/1gVGHBSqji-XJc6luvLDm3ilq08LMVb2hhC3EqZ5jr5Q/edit?usp=sharing)|
-|System architecture design and feasability evaluation.|Architecture design and feasability evaluation report.|[link](../software/01-backend_system_architecture.md)|
+|System architecture design and feasability evaluation.|Architecture design and feasability evaluation report.|[link](../software/01-subvt_system_architecture.md)|
 |UI/UX designer search, calls and proposal evaluation.|Reported below.| |
 
 ### UX/UI Design Team Search and Evaluation
