@@ -2,12 +2,12 @@
 
 First milestone of SubVT consisted of the following items and output:
 
-|Item   |Output   |   |
-|---|---|---|
-|Requirements gathering and documentation.|User stories, feature details and implementation details as issues in the top-level repository.|[link](https://github.com/helikon-labs/subvt/issues?q=is%3Aopen+is%3Aissue+label%3Afeature)|
-| |Data definition document for the design team.|[link](https://docs.google.com/document/d/1gVGHBSqji-XJc6luvLDm3ilq08LMVb2hhC3EqZ5jr5Q/edit?usp=sharing)|
-|System architecture design and feasability evaluation.|Architecture design and feasability evaluation report.|[link](../software/01-subvt_system_architecture.md)|
-|UI/UX designer search, calls and proposal evaluation.|Reported below.| |
+| Item                                                   | Output                                                                                          |                                                                                                          |
+|--------------------------------------------------------|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| Requirements gathering and documentation.              | User stories, feature details and implementation details as issues in the top-level repository. | [link](https://github.com/helikon-labs/subvt/issues?q=is%3Aopen+is%3Aissue+label%3Afeature)              |
+|                                                        | Data definition document for the design team.                                                   | [link](https://docs.google.com/document/d/1gVGHBSqji-XJc6luvLDm3ilq08LMVb2hhC3EqZ5jr5Q/edit?usp=sharing) |
+| System architecture design and feasibility evaluation. | Architecture design and feasibility evaluation report.                                          | [link](../software/01-subvt_system_architecture.md)                                                      |
+| UI/UX designer search, calls and proposal evaluation.  | Reported below.                                                                                 |                                                                                                          |
 
 ## UX/UI Design Team Search and Evaluation
 
@@ -26,7 +26,7 @@ We prepared a platform and data definition [document](https://docs.google.com/do
 
 We started with some research on what's available for Substrate in the Rust, Go, Java and Python spaces, and we decided to code the backend in Rust. Not to mention its inherent strengths, Rust makes it much easier to use the existing Substrate/Polkadot codebases, enables us to respond very quickly to runtime and metadata changes, and it is a good investment for our future Substrate projects.
 
-We designed the backend system [architecture](../software/01-backend_system_architecture.md) after a brief build-one-to-throw-away exploratory coding. Rest of the development effort in the first, [second](./02-milestone_02_report.md) and [third](./03-milestone_03_report.md) milestones was very heavy backend coding, and responding to Polkadot and Kusama runtime and metadata (especially v14) changes.
+We designed the backend system [architecture](../software/01-subvt_system_architecture.md) after a brief build-one-to-throw-away exploratory coding. Rest of the development effort in the first, [second](./02-milestone_02_report.md) and [third](./03-milestone_03_report.md) milestones was very heavy backend coding, and responding to Polkadot and Kusama runtime and metadata (especially v14) changes.
 
 ## Evaluation of Substrate Client Libraries
 
