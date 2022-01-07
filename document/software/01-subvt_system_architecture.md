@@ -29,6 +29,7 @@
   inactive validator counts, total stake, minimum/maximum/average/median validator stakes, and more information.
 
 ### 3. Live Network Status WS Server ([code](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-live-network-status-server))
+- Specified [here](https://github.com/helikon-labs/subvt-backend/blob/main/subvt-live-network-status-server/README.md).
 - Subscribes to the Redis notifications from the network status updater.
 - Accepts incoming WebSocket pub/sub connections through the configured port.
 - Provides two RPC methods: `subscribe_live_network_status` and `unsubscribe_live_network_status`.
@@ -46,6 +47,7 @@
 - `PUBLISH`es a Redis notification after the successful processing on a finalized block.
 
 ### 5. Validator List WS Server ([code](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-validator-list-server))
+- Specified [here](https://github.com/helikon-labs/subvt-backend/blob/main/subvt-validator-list-server/README.md).
 - Subscribes to the Redis event published by the validator list updater.
 - Accepts incoming WebSocket pub/sub connections through the configured port.
 - Provides two RPC methods: `subscribe_validator_list` and `unsubscribe_validator_list`.
@@ -54,6 +56,7 @@
 - Designed to provide data to the SubVT active and inactive validator list screens.
 
 ### 6. Validator Details WS Server ([code](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-validator-details-server))
+- Specified [here](https://github.com/helikon-labs/subvt-backend/blob/main/subvt-validator-details-server/README.md).
 - Subscribes to the Redis event published by the validator list updater.
 - Accepts incoming WebSocket pub/sub connections through the configured port.
 - Provides two RPC methods: `subscribe_validator_list` and `unsubscribe_validator_list`, former with the validator

@@ -27,12 +27,12 @@ You may view the Kusama Treasury [proposal](https://kusama.polkassembly.io/post/
 3. Design [assets](./assets/design).
 4. UX map on [Figma](https://www.figma.com/file/XzSssIXskyo8aMTc1myClC/?node-id=178:350).
 5. UX design on [Figma](https://www.figma.com/file/XzSssIXskyo8aMTc1myClC/?node-id=0:1).
-6. Service specifications for REST services.
+6. Service specifications for REST and WS RPC services.
 	1. Application REST service OpenAPI [specification](https://helikon-labs.stoplight.io/docs/subvt/YXBpOjM0Mjg0NzAw-sub-vt-application-service).
     2. Report REST service OpenAPI [specification](https://helikon-labs.stoplight.io/docs/subvt/YXBpOjM0MDAzMjEz-sub-vt-report-service).
-	3. Live network status WS RPC service [specification](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-live-network-status-server).
-	4. Validator list WS RPC service [specification](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-validator-list-server).
-	5. Validator details WS RPC service [specification](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-validator-details-server).
+	3. Live network status WS RPC service [specification](https://github.com/helikon-labs/subvt-backend/blob/main/subvt-live-network-status-server/README.md).
+	4. Validator list WS RPC service [specification](https://github.com/helikon-labs/subvt-backend/blob/main/subvt-validator-list-server/README.md).
+	5. Validator details WS RPC service [specification](https://github.com/helikon-labs/subvt-backend/blob/main/subvt-validator-details-server/README.md).
 
 ### Milestone 3️⃣
 1. UI [design](https://www.figma.com/file/XzSssIXskyo8aMTc1myClC/?node-id=178:603).
