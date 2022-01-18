@@ -21,18 +21,18 @@
 - `NOTIFY`s the PostgreSQL network database. Notification generator subscribes to this notification, and scans the persisted
   block data for possible notification cases.
 
-### 2. Live Network Status Updater ([code](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-live-network-status-updater))
+### 2. Network Status Updater ([code](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-network-status-updater))
 - With every new finalized block, fetches the network status data from the Subtrate node and stores it in the Redis
   in-memory database, and makes a `PUBLISH` call so that Redis can notify the network status server and notification
   server to carry out their related operations on the fresh network status data.
 - Network status data contains finalized and best block numbers and hashes, active era and current epoch, active and
   inactive validator counts, total stake, minimum/maximum/average/median validator stakes, and more information.
 
-### 3. Live Network Status WS Server ([code](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-live-network-status-server))
+### 3. Network Status WS Server ([code](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-network-status-server))
 - Specified [here](https://github.com/helikon-labs/subvt-backend/blob/main/subvt-live-network-status-server/README.md).
 - Subscribes to the Redis notifications from the network status updater.
 - Accepts incoming WebSocket pub/sub connections through the configured port.
-- Provides two RPC methods: `subscribe_live_network_status` and `unsubscribe_live_network_status`.
+- Provides two RPC methods: `subscribe_networkStatus` and `unsubscribe_networkStatus`.
 - Sends the complete network status data to the client on initial subscription, and then only sends the updated parts of 
   the network status data after each new finalized block as long as the client remains connected.
 - Designed to provide data to the SubVT network status screen.
@@ -50,7 +50,7 @@
 - Specified [here](https://github.com/helikon-labs/subvt-backend/blob/main/subvt-validator-list-server/README.md).
 - Subscribes to the Redis event published by the validator list updater.
 - Accepts incoming WebSocket pub/sub connections through the configured port.
-- Provides two RPC methods: `subscribe_validator_list` and `unsubscribe_validator_list`.
+- Provides two RPC methods: `subscribe_validatorList` and `unsubscribe_validatorList`.
 - Sends the complete validator list data to the client on initial subscription, and then only sends the updated parts of
   the validator list data after each update from the validator list updater as long as the client remains connected.
 - Designed to provide data to the SubVT active and inactive validator list screens.
@@ -59,7 +59,7 @@
 - Specified [here](https://github.com/helikon-labs/subvt-backend/blob/main/subvt-validator-details-server/README.md).
 - Subscribes to the Redis event published by the validator list updater.
 - Accepts incoming WebSocket pub/sub connections through the configured port.
-- Provides two RPC methods: `subscribe_validator_list` and `unsubscribe_validator_list`, former with the validator
+- Provides two RPC methods: `subscribe_validatorDetails` and `unsubscribe_validatorDetails`, former with the validator
   account id in hex format as the first parameter.
 - Send the complete validator details data to the client on initial subscription, and then only sends the updated parts
   of the validator details data after each update from the validator list updater as long as the client remains 

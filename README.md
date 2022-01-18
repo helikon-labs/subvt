@@ -4,7 +4,7 @@
 
 SubVT (Substrate Validator Toolkit - former Subvalt) is a native mobile application for iOS and Android phones, tablets and wearables that provides node operators with tools that aid them in running their validators on any Substrate-based blockchain network. The app aims to provide through a well-designed UX and UI:
 
-- Live network data.
+- Live network status data.
 - Active/inactive validator lists, and validator details.
 - Configurable push, email, SMS and GSM notifications for on- and off-chain events and extrinsics related to the validators.
 - Era reports.
@@ -30,7 +30,7 @@ You may view the Kusama Treasury [proposal](https://kusama.polkassembly.io/post/
 6. Service specifications for REST and WS RPC services.
 	1. Application REST service OpenAPI [specification](https://helikon-labs.stoplight.io/docs/subvt/YXBpOjM0Mjg0NzAw-sub-vt-application-service).
     2. Report REST service OpenAPI [specification](https://helikon-labs.stoplight.io/docs/subvt/YXBpOjM0MDAzMjEz-sub-vt-report-service).
-	3. Live network status WS RPC service [specification](https://github.com/helikon-labs/subvt-backend/blob/main/subvt-live-network-status-server/README.md).
+	3. Network status WS RPC service [specification](https://github.com/helikon-labs/subvt-backend/blob/main/subvt-network-status-server/README.md).
 	4. Validator list WS RPC service [specification](https://github.com/helikon-labs/subvt-backend/blob/main/subvt-validator-list-server/README.md).
 	5. Validator details WS RPC service [specification](https://github.com/helikon-labs/subvt-backend/blob/main/subvt-validator-details-server/README.md).
 
