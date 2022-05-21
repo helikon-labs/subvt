@@ -46,14 +46,18 @@
   the hashes, without the need to fetch the complete data.
 - `PUBLISH`es a Redis notification after the successful processing on a finalized block.
 
-### 5. Validator List WS Server ([code](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-validator-list-server))
+### 4. Active Validator List WS Server ([code](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-validator-list-server))
 - Specified [here](https://github.com/helikon-labs/subvt-backend/blob/main/subvt-validator-list-server/README.md).
+- Serves the active validator list.
 - Subscribes to the Redis event published by the validator list updater.
 - Accepts incoming WebSocket pub/sub connections through the configured port.
 - Provides two RPC methods: `subscribe_validatorList` and `unsubscribe_validatorList`.
 - Sends the complete validator list data to the client on initial subscription, and then only sends the updated parts of
   the validator list data after each update from the validator list updater as long as the client remains connected.
 - Designed to provide data to the SubVT active and inactive validator list screens.
+
+### 5. Inactive Validator List WS Server ([code](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-validator-list-server))
+- Same as the previous, but serves the inactive validator list.
 
 ### 6. Validator Details WS Server ([code](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-validator-details-server))
 - Specified [here](https://github.com/helikon-labs/subvt-backend/blob/main/subvt-validator-details-server/README.md).
@@ -84,7 +88,7 @@
 - Requires notification rules to be defined by the system or users.
 - Persists notifications into the PostgreSQL application database, soon to be processed by the notification sender.
 
-### 10. Notification Sender ([code](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-notification-sender))
+### 10. Notification Processor ([code](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-notification-processor))
 - Processes the notifications persisted by the notification generator, and sends notifications to the appropriate
   channels (APNS, FCM, email, SMS, GSM, Telegram, etc.) as defined by the notification rules.
 - Uses different templates for different channels to generate notification content.
