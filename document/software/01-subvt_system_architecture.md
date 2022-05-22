@@ -1,8 +1,8 @@
 # SubVT System Architecture
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/helikon-labs/subvt/main/document/software/image/01-subvt_system_architecture_large.png" target="_blank">
-    <img src="./image/01-subvt_system_architecture_small.png"/>
+  <a href="https://raw.githubusercontent.com/helikon-labs/subvt/main/document/software/image/01-subvt_system_architecture_large.jpg" target="_blank">
+    <img src="./image/01-subvt_system_architecture_small.jpg"/>
   </a>
   <br/>
   <i>
@@ -112,6 +112,9 @@
     - `DELETE` one of the user's notification rules.
     - `POST` new validator for the user (i.e. bookmark).
     - And many more.
+
+### 12. Telegram Bot ([code](https://github.com/helikon-labs/subvt-backend/tree/main/subvt-telegram-bot))
+A super-powered upgrade for the now-deprecated [1KV Bot](https://github.com/helikon-labs/polkadot-kusama-1kv-telegram-bot). Please view the bot [readme](https://github.com/helikon-labs/subvt-backend/blob/main/subvt-telegram-bot/README.md) for the live bot links and complete list of commands and notifications.
 
 ## Feasibility and Implementation
 Current model builds on top of the [initial proposal](https://docs.google.com/document/d/1mCD1lRoEwbV3Xp5N-HzEKA0KROCmNkMFInLGd4nAz-k/edit?usp=sharing),
