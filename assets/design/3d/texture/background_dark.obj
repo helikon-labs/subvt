@@ -1,6 +1,6 @@
 # Blender v2.92.0 OBJ File: 'animation.blend'
 # www.blender.org
-mtllib dark background.mtl
+mtllib background_dark.mtl
 o bg_green_description.001
 v -12.024558 -10.998462 -20.888905
 v 12.024558 -10.998462 -20.888905
